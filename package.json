@@ -1,0 +1,30 @@
+{
+  "name": "lingyun-huhang-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "凌云护航学习成长平台前端原型工程：Vue3 + TypeScript + Pinia + Vite",
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=11.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "typecheck": "vue-tsc -b"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "axios": "^1.18.1",
+    "pinia": "^3.0.4",
+    "vite": "^8.1.4",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.7",
+    "@vue/tsconfig": "^0.9.1"
+  }
+}
